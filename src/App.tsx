@@ -15,7 +15,7 @@ export function App() {
     setIsInscriptionModalOpen(true);
   }
   function handleCloseInscriptionModal(){
-    setIsInscriptionModalOpen(false);
+    setIsInscriptionModalOpen(false); 
 
   }
   return (
