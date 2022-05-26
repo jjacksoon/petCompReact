@@ -1,5 +1,5 @@
 import { Header } from './components/Header/';
-// import { About } from './components/About/About';
+import { About } from './components/About';
 import { GlobalStyle } from './styles/global';
 // import { Activities } from './components/Activities/Activities';
 // import { Footer } from './components/Footer/Footer';
@@ -20,11 +20,11 @@ export function App() {
   return (
     <>
       <Header onOpenInscriptionModal={handleOpenInscriptionModal}/>
-      {/* <About/>
+      <About/>
 
-      <InscriptionModal isOpen={isInscriptionModalOpen} onRequestClose={handleCloseInscriptionModal}/>
+      {/* <InscriptionModal isOpen={isInscriptionModalOpen} onRequestClose={handleCloseInscriptionModal}/>
       <Activities/>
-      <Footer/> */}
+      <Footer/>  */}
       <GlobalStyle/>     
     </>
       
