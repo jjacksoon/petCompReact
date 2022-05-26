@@ -2,7 +2,7 @@ import { Header } from './components/Header/';
 import { About } from './components/About';
 import { GlobalStyle } from './styles/global';
 import { Activities } from './components/Activities';
-// import { Footer } from './components/Footer/Footer';
+import { Footer } from './components/Footer';
 import { useState } from 'react';
 // import { InscriptionModal } from './components/InscriptionModal/InscriptionModal';
 
@@ -23,8 +23,8 @@ export function App() {
       <About/>
       <Activities/>
 
-      {/* <InscriptionModal isOpen={isInscriptionModalOpen} onRequestClose={handleCloseInscriptionModal}/>
-      <Footer/>  */}
+      {/* <InscriptionModal isOpen={isInscriptionModalOpen} onRequestClose={handleCloseInscriptionModal}/>*/}
+      <Footer/>  
       <GlobalStyle/>     
     </>
       
