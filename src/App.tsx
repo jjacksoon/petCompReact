@@ -1,10 +1,10 @@
-import { Header } from './components/Header/Header';
-import { About } from './components/About/About';
+import { Header } from './components/Header/';
+// import { About } from './components/About/About';
 import { GlobalStyle } from './styles/global';
-import { Activities } from './components/Activities/Activities';
-import { Footer } from './components/Footer/Footer';
+// import { Activities } from './components/Activities/Activities';
+// import { Footer } from './components/Footer/Footer';
 import { useState } from 'react';
-import { InscriptionModal } from './components/InscriptionModal/InscriptionModal';
+// import { InscriptionModal } from './components/InscriptionModal/InscriptionModal';
 
 
 export function App() {
@@ -20,11 +20,11 @@ export function App() {
   return (
     <>
       <Header onOpenInscriptionModal={handleOpenInscriptionModal}/>
-      <About/>
+      {/* <About/>
 
       <InscriptionModal isOpen={isInscriptionModalOpen} onRequestClose={handleCloseInscriptionModal}/>
       <Activities/>
-      <Footer/>
+      <Footer/> */}
       <GlobalStyle/>     
     </>
       
