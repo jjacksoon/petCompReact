@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* max-width: 1120px; */
   background: var(--background);  
   margin: 0 auto;
   padding: 2rem 5rem 2.5rem;
@@ -28,5 +27,21 @@ export const Container = styled.div`
     &:hover{
       filter: opacity(0.7);
     } 
+  }
+
+  @media(max-width: 600px){
+    display: flex;
+    flex-direction: column;
+    
+    img{
+      margin-bottom: 10px;
+    }
+  }
+
+  @media(max-width: 768px){
+    img{
+      height: 100px;
+      width: 220px;
+    }
   }
 `;

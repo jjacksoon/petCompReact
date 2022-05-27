@@ -13,6 +13,10 @@ export const Container = styled.div`
     height: 3rem;
   }
 
+  h1{
+    text-align: center;
+  }
+
   button{
     font-size: 1rem;
     color: #ffffff;
@@ -28,7 +32,10 @@ export const Container = styled.div`
       filter: opacity(0.7);
     }
   }
-`;
 
-export const CardButton = styled.div`
-`
+  @media (min-width: 400px){
+    h2{
+        text-align: center;
+      }
+  }
+`;

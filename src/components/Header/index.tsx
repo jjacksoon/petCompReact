@@ -10,7 +10,6 @@ export function Header({onOpenInscriptionModal}: HeaderProps){
       <Container>
         <img src={logoImg} alt="PETComp" />
         <button type="button" onClick={onOpenInscriptionModal}>Fazer inscrição</button>
-
       </Container>
   );
 }

@@ -25,6 +25,31 @@ export const Container  = styled.footer`
       filter: opacity(0.7);
     }
   }
+
+  @media(max-width: 500px){
+    display: flex;
+    justify-content: flex-end;
+    .logo-img{
+      display: none;
+    }
+  }
+
+  @media(min-width: 500px) and (max-width: 720px){
+    padding: 1rem 0;
+    .logo-img{
+      width: 7rem;
+      height: 7rem;
+    }
+    
+  }
+
+  @media(min-width: 720px){
+    padding: 1rem 0;
+    .logo-img{
+      width: 10rem;
+      height: 10rem;
+    }
+  }
 `;
 export const InformationContent  = styled.footer`
   display: flex;
