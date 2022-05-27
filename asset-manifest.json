@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/patCompReact/static/js/main.436f7585.js",
+    "static/media/background.jpg": "/patCompReact/static/media/background.47a4c9c47491e8fcacc4.jpg",
+    "static/media/ufma.png": "/patCompReact/static/media/ufma.59c30d902d5e19809cef.png",
+    "static/media/instagram.png": "/patCompReact/static/media/instagram.49a149cfde4edfe8395b.png",
+    "static/media/twitter.png": "/patCompReact/static/media/twitter.814e62550efd2b5a79cf.png",
+    "static/media/logo.png": "/patCompReact/static/media/logo.0efabe659dc1d85d1227.png",
+    "static/media/address.png": "/patCompReact/static/media/address.e208e6fa4df2ee4362e7.png",
+    "static/media/minicurso.png": "/patCompReact/static/media/minicurso.00af39000f7a1fcd5de3.png",
+    "static/media/email.png": "/patCompReact/static/media/email.6ffa6790205d962bc437.png",
+    "static/media/monitoria.png": "/patCompReact/static/media/monitoria.a4b4016986a520d69fb4.png",
+    "static/media/escrita.png": "/patCompReact/static/media/escrita.d7f009f1935cccf61030.png",
+    "static/media/podcast.png": "/patCompReact/static/media/podcast.9750edd14de838cc4944.png",
+    "index.html": "/patCompReact/index.html",
+    "static/media/close.svg": "/patCompReact/static/media/close.88f214edc22d428de53f93d90206c558.svg",
+    "main.436f7585.js.map": "/patCompReact/static/js/main.436f7585.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.436f7585.js"
+  ]
+}
