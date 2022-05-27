@@ -60,7 +60,6 @@ export const Container = styled.form`
     border: 1px solid #d7d7d7;
     font-weight: 400;
     font-size: 1rem;
-
   }
   select{
     width: 100%;
@@ -105,5 +104,10 @@ export const ActivityTypeContainer= styled.div`
     display: inline-block;
     margin-left: 0.5rem;
     font-size: 1rem;
+  }
+
+  @media(max-width: 540px){
+    display: grid;
+    grid-template-columns: 1fr;
   }
 `;
